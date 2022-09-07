@@ -65,7 +65,7 @@ function App() {
         <div className="offer">try it free for 7 days then <span> $20/mo there after</span></div>
         <div className="form_container">
           {error && <ErrorMessage>{message}</ErrorMessage>}
-          <div id="error" ></div>
+          
           <form name="myForm"  >
             <input name="firstName" onChange={HandleInput} value={user.firstName} type="text" placeholder="Enter first name" />
             <input name="lastName" onChange={HandleInput} value={user.lastName} type="text" placeholder="Enter second name" />

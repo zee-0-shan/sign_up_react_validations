@@ -129,5 +129,8 @@ background-color: green;
       height: 10%;
       padding: 20px;
   }
+  .btn_container button{
+    height: 50%;
+  }
  
 }
